@@ -59,16 +59,10 @@ button:focus-visible {
   outline: 4px auto #27AE60;
 }
 
-/* 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
+
+@media only screen and (max-width: 768px) {
   button {
-    background-color: #f9f9f9;
+    font-size: 8px;
+    margin: 3px;
   }
-}  */
+} 

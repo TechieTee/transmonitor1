@@ -1,4 +1,4 @@
-const cardData = [
+export const cardData = [
     {
       id: 1,
       transaction: "Daily Transaction Volume",
@@ -21,5 +21,25 @@ const cardData = [
     }
   ];
   
-  export default cardData;
+
+
+  export const reportcardData = [
+    {
+      id: 1,
+      reportType: "Orders",
+      pendingOrder: "20",
+      reconcilledOrder: '80',
+      totalOrder: '100'
+    },
+    {
+      id: 2,
+      reportType: "Orders",
+      pendingOrder: "20",
+      reconcilledOrder: '80',
+      totalOrder: '100'
+    },
+    
+  ];
+  
+
   

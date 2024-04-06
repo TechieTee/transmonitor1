@@ -1,9 +1,10 @@
 import React from 'react'
 import Layout from '../../components/layout/Layout'
 import styles from './MerchantModule.module.css'
-import Chart from '../../assets/Chart.svg';
 import Card from '../../components/card/Card';
-import cardData from "../../data";
+import {cardData, reportcardData} from "../../data";
+import ReportCard from '../../components/reportcard/ReportCard';
+import ChartBoard from '../../components/chartboard/ChartBoard';
 
 const MerchantModule = () => {
   return (
@@ -20,12 +21,18 @@ const MerchantModule = () => {
         </div>
         <div className={styles.merchantchartboard}>
           <div className={styles.merchantchart}>
-          merchant chart board
+          <ChartBoard/>
           </div>
           <div className={styles.merchantchartreport}>
-             
-               <div> merchant chart report</div>  <div> merchant chart report</div>
-            
+          {reportcardData.map((data) => (
+        <ReportCard
+          key={data.id}
+          reportType={data.reportType}
+          pendingOrder={data.pendingOrder}
+          reconcilledOrder={data.reconcilledOrder}
+          totalOrder={data.totalOrder}
+        />
+      ))} 
           </div>
         </div>
         <div className={styles.paymenttransactiontable}>table

@@ -18,21 +18,51 @@
     align-items: center;
     flex-direction: row;
     gap: 0.3rem;
+   
     margin-bottom: 3rem;
 }
 .merchantchart{
   
     display:flex;
     gap:1rem;
-    height: 80px;
-    width: 60%;
+   
+    width: 100%;
     background-color: white;
-    padding: 1rem;
+    margin-bottom: 0.3rem;
+   
 }
 .merchantchartreport{
     display:block;
+    width: 35%;
 
 }
 .paymenttransactiontable{
     height: 500px;
 }
+
+@media only screen and (max-width: 1200px) {
+
+    .transactionreportcards{
+        display:block;
+    }
+    .merchantchartboard{
+        display:block;
+    }
+    .merchantchart{
+  
+        display:block;
+    }
+
+    .merchantchart{
+  
+     
+        /* height: 80px; */
+        width: 100%;
+       
+    }
+    .merchantchartreport{
+        
+        width: 100%;
+    
+    }
+  } 
