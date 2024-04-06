@@ -1,0 +1,38 @@
+.merchantmodule{
+    padding: 2rem;
+    background-color: #F7F8FA;
+}
+
+.transactionreportcards{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    font-size: 14px;
+   
+}
+
+.merchantchartboard{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.3rem;
+    margin-bottom: 3rem;
+}
+.merchantchart{
+  
+    display:flex;
+    gap:1rem;
+    height: 80px;
+    width: 60%;
+    background-color: white;
+    padding: 1rem;
+}
+.merchantchartreport{
+    display:block;
+
+}
+.paymenttransactiontable{
+    height: 500px;
+}

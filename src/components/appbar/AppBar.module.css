@@ -1,0 +1,22 @@
+.appbar{
+    box-shadow: 0 1px 8px rgba(136,136,136,0.2);
+    padding-left:3rem;
+    padding-right:5rem;
+    background-color:white;
+    height:60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position:fixed;
+    z-index: 10;
+    color: #647787;
+    font-size: 14px;
+    font-weight: 100;
+}
+.appbaritem{
+    display: flex;
+    align-items: center;
+    gap: 2.6rem;
+   
+}

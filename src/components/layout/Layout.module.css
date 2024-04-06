@@ -1,0 +1,16 @@
+.layout {
+    min-height: 100vh;
+
+    /* position: fixed;
+    z-index: 9999;
+    top: -29px;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    pointer-events: none; */
+}
+
+.layoutbody {
+   position: relative;
+  
+}

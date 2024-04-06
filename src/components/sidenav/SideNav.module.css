@@ -1,0 +1,73 @@
+.sidenav{
+    box-shadow: 0 1px 8px rgba(136,136,136,0.2);
+    width: 18%;
+    padding-top: 85px;
+    background-color: rgb(255, 255, 255);
+    row-gap: 2rem;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    display: flex;
+    position: fixed;
+    top: 0px;
+}
+
+.button{
+    background-color: #27AE60;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+
+
+
+.menu {
+  
+ 
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  .menulist {
+    margin-bottom: 20px;
+  }
+  .menu li {
+  
+  }
+  
+  .menu li a {
+    display: block;
+    padding: 8px 0px 8px 55px;
+    text-decoration: none;
+    color: #647787;
+    font-size: 11px;
+    border-left: 2px solid transparent;
+    transition: background-color 0.3s;
+  }
+  
+  .menu li a:hover {
+    border-left: 2px solid #1875F0;
+    background-color:#e8f1fd;
+  }
+  
+  .submenu {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .menu li:hover .submenu {
+    display: block;
+   
+  }
+  
+  .submenu li {
+    border-bottom: none;
+    
+  }
+  .sidenavicon{
+    margin-right: 12px;
+  }
