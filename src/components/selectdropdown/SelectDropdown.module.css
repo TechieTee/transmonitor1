@@ -1,0 +1,43 @@
+.selectdropdown {
+    width: 200px;
+}
+.label {
+    font-size: 13px;
+    color: #414042;
+    position: absolute;
+}
+.optionsbtn {
+    display: flex;
+    z-index: 999;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    color: #414042;
+    border: 1px solid #CED0DA;
+    cursor: pointer;
+    background-color: #f7f8fa;
+    width: 75%;
+    margin-left: 25%;
+
+}
+.showoptions {
+    width: 148px;
+    margin-left: 50px;
+    background: white;
+    position: absolute;
+    z-index: 999999;
+    box-shadow: 0 1px 8px rgba(136, 136, 136, 0.2);
+}
+.options {
+    text-align: left;
+    padding: 6px 1rem 5px 0.75rem;
+    font-size: 13px;
+    line-height: 21px;
+    cursor: pointer;
+    color: #414042;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+.options:hover {
+    background-color: #F4F4F4;
+}

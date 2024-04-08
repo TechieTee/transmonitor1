@@ -11,12 +11,12 @@ export const cardData = [
     },
     {
       id: 3,
-      transaction: "Daily Transaction Value",
-      value: "₦4,000,000"
+      transaction: "Total Transaction Volume",
+      value: "452,000"
     },
     {
       id: 4,
-      transaction: "Daily Transaction Value",
+      transaction: "Total Transaction Value",
       value: "₦4,000,000"
     }
   ];
@@ -42,4 +42,6 @@ export const cardData = [
   ];
   
 
+ 
   
+

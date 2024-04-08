@@ -1,68 +1,65 @@
-.merchantmodule{
-    padding: 2rem;
+.merchantmodule {
+    padding: 2rem 4rem 4rem 2rem;
     background-color: #F7F8FA;
 }
 
-.transactionreportcards{
+.transactionreportcards {
     display: flex;
     align-items: center;
     flex-direction: row;
     gap: 1rem;
     margin-bottom: 2rem;
     font-size: 14px;
-   
+
 }
 
-.merchantchartboard{
+.merchantchartboard {
     display: flex;
     align-items: center;
     flex-direction: row;
     gap: 0.3rem;
-   
+
     margin-bottom: 3rem;
 }
-.merchantchart{
-  
-    display:flex;
-    gap:1rem;
-   
-    width: 100%;
+
+.merchantchart {
+
+    display: flex;
+    gap: 1rem;
+
+    width: 63%;
     background-color: white;
     margin-bottom: 0.3rem;
-   
-}
-.merchantchartreport{
-    display:block;
-    width: 35%;
 
 }
-.paymenttransactiontable{
-    height: 500px;
+
+.merchantchartreport {
+    display: block;
+    width: 37%;
+
 }
+
+
 
 @media only screen and (max-width: 1200px) {
 
-    .transactionreportcards{
-        display:block;
-    }
-    .merchantchartboard{
-        display:block;
-    }
-    .merchantchart{
-  
-        display:block;
+    .transactionreportcards {
+        display: block;
     }
 
-    .merchantchart{
-  
-     
-        /* height: 80px; */
-        width: 100%;
-       
+    .merchantchartboard {
+        display: block;
     }
-    .merchantchartreport{
-        
+
+    .merchantchart {
+
+
         width: 100%;
-    
     }
-  } 
+
+    .merchantchartreport {
+
+        width: 100%;
+
+    }
+}

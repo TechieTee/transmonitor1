@@ -14,7 +14,7 @@ import MerchantProfile from '../../assets/icons/MerchantProfile.svg';
 const SideNav = () => {
   return (
     <div className={styles.sidenav}>
- <button >GENERATE INVOICE</button>
+ <button className={styles.btn}>GENERATE INVOICE</button>
 
    
 

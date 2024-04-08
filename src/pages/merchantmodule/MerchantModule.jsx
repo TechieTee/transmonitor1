@@ -5,6 +5,7 @@ import Card from '../../components/card/Card';
 import {cardData, reportcardData} from "../../data";
 import ReportCard from '../../components/reportcard/ReportCard';
 import ChartBoard from '../../components/chartboard/ChartBoard';
+import RenderTable from '../../components/table/RenderTable';
 
 const MerchantModule = () => {
   return (
@@ -34,9 +35,9 @@ const MerchantModule = () => {
         />
       ))} 
           </div>
-        </div>
-        <div className={styles.paymenttransactiontable}>table
-        </div>
+        </div> 
+       <RenderTable/>
+       
       </div>
     </Layout>
   )

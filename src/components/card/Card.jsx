@@ -8,7 +8,8 @@ const Card = ({ transaction, value}) => {
    
   <div className={styles.transactionreportcard}>
     <div style={{ display: 'block' }} >
-      <div style={{ fontSize: '12px' }}>{transaction}</div><p>{value}</p>
+      <div className={styles.transactionreport}>{transaction}</div>
+      <p className={styles.value}>{value}</p>
     </div>
     <img src={Chart} alt="chart" />
   </div>
