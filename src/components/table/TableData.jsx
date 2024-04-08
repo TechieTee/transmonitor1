@@ -80,9 +80,26 @@ export const tableData = [
     "Price": "$73430",
     "Transaction No": "1234567890",
     "Time": "12:30",
+    "Status": <StatusButton status='Reconcilled' />
+  },
+  {
+    id: 7,
+    "Initials": <Initials />,
+    "Item Type": <ItemType />,
+    "Price": "$73430",
+    "Transaction No": "1234567890",
+    "Time": "12:30",
+    "Status": <StatusButton status='Pending' />
+  },
+  {
+    id: 8,
+    "Initials": <Initials />,
+    "Item Type": <ItemType />,
+    "Price": "$73430",
+    "Transaction No": "1234567890",
+    "Time": "12:30",
     "Status": <StatusButton status='UnReconcilled' />
   },
-
 
 ];
 

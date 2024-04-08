@@ -32,3 +32,11 @@
     text-align: left;
     padding: 0.8rem 2.5rem 0.8rem 1rem;
 }
+
+
+.paginate{
+    display: flex;  
+    padding-top: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}

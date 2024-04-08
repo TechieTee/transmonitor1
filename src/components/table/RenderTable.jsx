@@ -11,13 +11,14 @@ import UnReconcilledElipse from '../../assets/icons/UnReconcilledElipse.svg';
 const RenderTable = () => {
   const [status, setStatus] = useState("");
   const [searchResults, setSearchResults] = useState([]);
+
   const handleSearch = (query) => {
       console.log('I am searching for:', query);
       setSearchResults([...searchResults, query]); 
     };
   return (
   <div style={{display:'block'}}>
-        <div style={{display:'flex',padding:'1rem 0',gap:'12rem', justifyContent:'start',alignItems:'center'}}>
+        <div style={{display:'flex',padding:'0.1rem 0',gap:'12rem', justifyContent:'start',alignItems:'center'}}>
         <div style={{fontSize:'32px', color:'#262626'}}>Payments</div>
       </div>
       <div style={{display:'flex',padding:'1rem 0',gap:'12rem', justifyContent:'start',alignItems:'center'}}>
@@ -40,8 +41,6 @@ const RenderTable = () => {
       </div>
       <div>
       <Table
-      hasPagination
-      handlePagination={() => { }}
       tableHeaders={[
         "Initials",
         "Item Type",
@@ -57,4 +56,5 @@ const RenderTable = () => {
   )
 }
 export default RenderTable
+
 

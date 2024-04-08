@@ -1,16 +1,29 @@
 import { useRef, useState } from "react";
 import styles from './Table.module.css'
 import { useOnClickOutside } from "../../hooks/OnClickOutside";
+import Pagination from "../pagination/Pagination";
 
 const Table = ({
   tableHeaders,
   tableData,
   loading,
+  pageSize,
+ 
 }) => {
   const [showOption, setShowOption] = useState(false);
   const tableBodyRef = useRef(null);
   useOnClickOutside(tableBodyRef, () => setShowOption(false));
   const isEmpty = !loading && tableData?.length < 1;
+
+  const [pageNumber, setPageNumber] = useState(0);
+  const size = pageSize || 5;
+  const pagesVisited = pageNumber * size;
+  const pageCount = Math.ceil(tableData?.length / size);
+
+  const changePage = ({ selected }) => {
+    setPageNumber(selected);
+  };
+
   let tableBody;
   if (loading) {
     tableBody = (
@@ -29,8 +42,8 @@ const Table = ({
       </tr>
     );
   } else {
-    tableBody = tableData?.map((datum, index) => {
-      
+ 
+      tableBody = tableData?.slice(pagesVisited, pagesVisited + size)?.map((datum)=>{
       return (
         <tr key={datum.id}>
           {tableHeaders.map((header) => (
@@ -58,7 +71,14 @@ const Table = ({
           <tbody ref={tableBodyRef} className={styles.tablebody}>{tableBody}</tbody>
         </table>
       </div>
-     <div>Pagination</div>
+     <div> 
+     {tableData?.length > size && (
+        <div className={styles.paginate}> <p className={styles.description}>
+        Showing Page {pageNumber + 1} of {pageCount}
+      </p><Pagination pageCount={pageCount} onPageChange={changePage} /></div>
+      )} 
+   
+</div>
     </div>
   );
 };

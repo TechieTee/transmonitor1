@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 0.25rem;
+  border: 1px solid #CED0DA;
+}
+
+.paginationBtn {
+  width: 100%;
+
+  list-style: none;
+  display: flex;
+
+  color: #1875F0;
+
+}
+
+
+
+.paginationBtn a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  width: fit-content;
+  font-size: 14px;
+
+
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+
+
+}
+
+.paginationActive {
+  color: #FFFFFF;
+}
+
+.paginationActive a {
+  color: #FFFFFF;
+  background-color: #1875F0;
+}
+
+.paginationDisabled {
+  display: none;
+}
