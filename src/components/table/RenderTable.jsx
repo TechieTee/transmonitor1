@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import styles from './Table.module.css'
 import SearchBar from '../searchbar/SearchBar'
 import SelectDropdown from '../selectdropdown/SelectDropdown'
 import Table from './Table'
@@ -18,11 +19,11 @@ const RenderTable = () => {
     };
   return (
   <div style={{display:'block'}}>
-        <div style={{display:'flex',padding:'0.1rem 0',gap:'12rem', justifyContent:'start',alignItems:'center'}}>
+        <div className={styles.rendertable}>
         <div style={{fontSize:'32px', color:'#262626'}}>Payments</div>
       </div>
-      <div style={{display:'flex',padding:'1rem 0',gap:'12rem', justifyContent:'start',alignItems:'center'}}>
-        <div>Pagination</div>
+      <div className={styles.rendertable}>
+        <div>Page Size</div>
         <div style={{width:'40%', borderBottom:'0.5px solid #787878'}}><SearchBar onSearch={handleSearch} placeholder="Search Payments"/></div>  
       <SelectDropdown
               options={[

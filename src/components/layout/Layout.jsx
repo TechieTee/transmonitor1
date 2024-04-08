@@ -12,8 +12,7 @@ const Layout = ({children} ) => {
     <div className={styles.layoutbody}>
       <SideNav  />
 
-      <div
-        style={{ paddingTop:'60px', paddingLeft:'256px' }}
+      <div className={styles.children}
       >
          {children} 
     

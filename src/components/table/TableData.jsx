@@ -100,6 +100,68 @@ export const tableData = [
     "Time": "12:30",
     "Status": <StatusButton status='UnReconcilled' />
   },
-
+  {
+    id: 9,
+    "Initials": <Initials />,
+    "Item Type": <ItemType />,
+    "Price": "$73430",
+    "Transaction No": "1234567890",
+    "Time": "12:30",
+    "Status": <StatusButton status='UnReconcilled' />
+  },
+  {
+    id: 10,
+    "Initials": <Initials />,
+    "Item Type": <ItemType />,
+    "Price": "$73430",
+    "Transaction No": "1234567890",
+    "Time": "12:30",
+    "Status": <StatusButton status='Reconcilled' />
+  },
+  {
+    id: 11,
+    "Initials": <Initials />,
+    "Item Type": <ItemType />,
+    "Price": "$73430",
+    "Transaction No": "1234567890",
+    "Time": "12:30",
+    "Status": <StatusButton status='Pending' />
+  },
+  {
+    id: 12,
+    "Initials": <Initials />,
+    "Item Type": <ItemType />,
+    "Price": "$73430",
+    "Transaction No": "1234567890",
+    "Time": "12:30",
+    "Status": <StatusButton status='Reconcilled' />
+  },
+  {
+    id: 13,
+    "Initials": <Initials />,
+    "Item Type": <ItemType />,
+    "Price": "$73430",
+    "Transaction No": "1234567890",
+    "Time": "12:30",
+    "Status": <StatusButton status='Pending' />
+  },
+  {
+    id: 14,
+    "Initials": <Initials />,
+    "Item Type": <ItemType />,
+    "Price": "$73430",
+    "Transaction No": "1234567890",
+    "Time": "12:30",
+    "Status": <StatusButton status='UnReconcilled' />
+  },
+  {
+    id: 15,
+    "Initials": <Initials />,
+    "Item Type": <ItemType />,
+    "Price": "$73430",
+    "Transaction No": "1234567890",
+    "Time": "12:30",
+    "Status": <StatusButton status='Pending' />
+  },
 ];
 

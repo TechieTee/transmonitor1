@@ -40,3 +40,22 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.rendertable{
+    display:flex;
+    padding:0.1rem 0;
+    gap:12rem; 
+    justify-content:start;
+    align-items:center
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .rendertable{
+        padding:0.1rem 0.1rem 0.1rem 0;
+        gap:8rem; 
+    
+     
+    }
+   
+}

@@ -14,3 +14,16 @@
    position: relative;
   
 }
+.children{
+    padding-top:60px; 
+    padding-left:256px
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .children{
+        padding-top:60px; 
+        padding-left:256px
+    }
+   
+}
