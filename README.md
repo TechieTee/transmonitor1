@@ -1,5 +1,6 @@
 # React + Vite
-hosted on [transmonitor1.netlify.app](https://transmonitor1.netlify.app) 
+this project is hosted on [transmonitor1.netlify.app](https://transmonitor1.netlify.app) 
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
